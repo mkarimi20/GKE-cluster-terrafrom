@@ -1,5 +1,5 @@
 variable "cluster_name" {
-  default = "my-fuchicorp-cluster"
+  default = "my-team-cluster"
 }
 
 variable "node_count" {
@@ -11,7 +11,7 @@ variable "google_project_id" {
 }
 
 variable "service_account_path" {
-  default = "./fuchicorp-service-account.json"
+  default = "./team-service-account.json"
 }
 
 variable "region" {
